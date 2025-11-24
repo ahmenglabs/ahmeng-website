@@ -26,3 +26,8 @@ pnpm-debug.log*
 # pagefind
 
 public/pagefind
+
+# lock file
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
