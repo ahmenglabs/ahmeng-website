@@ -46,7 +46,7 @@ export default defineConfig({
     // See: https://github.com/withastro/astro/issues/14030
     plugins: [tailwindcss()],
     optimizeDeps: {
-      exclude: ["@resvg/resvg-js"],
+      exclude: ["sharp"],
     },
     ssr: {
       external: [
@@ -57,6 +57,9 @@ export default defineConfig({
         "node:url",
         "node:path",
         "url",
+        "module",
+        "node:fs/promises",
+        "node:crypto",
       ],
     },
   },
