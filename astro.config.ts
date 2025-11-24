@@ -48,6 +48,17 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    ssr: {
+      external: [
+        "fs",
+        "path",
+        "child_process",
+        "node:fs",
+        "node:url",
+        "node:path",
+        "url",
+      ],
+    },
   },
 
   image: {
