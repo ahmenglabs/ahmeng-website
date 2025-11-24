@@ -83,6 +83,7 @@ export default defineConfig({
     preserveScriptOrder: true,
   },
 
+  output: "server",
   adapter: cloudflare({
     imageService: "cloudflare",
   }),
