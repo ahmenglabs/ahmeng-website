@@ -1,0 +1,122 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import rawContests from "@/data/ctftime/ctf_events.json" assert { type: "json" };
+
+interface RawContest {
+  place: string;
+  event: string;
+  href: string;
+  ratingPoints: string;
+  ctfPoints: string;
+}
+
+interface Contest {
+  place: string;
+  event: string;
+  href: string;
+  ratingPoints: number;
+  ctfPoints: string;
+  year: number;
+}
+
+const rawList = rawContests as RawContest[];
+const contests: Contest[] = rawList.map(c => {
+  const yearMatch = c.event.match(/\b(20\d{2})\b/);
+  const year = yearMatch ? parseInt(yearMatch[1]) : 0;
+
+  return {
+    place: c.place,
+    event: c.event,
+    href: c.href,
+    ratingPoints: Number(c.ratingPoints),
+    ctfPoints: c.ctfPoints,
+    year: year,
+  };
+});
+
+contests.sort((a, b) => {
+  return (b.year || 0) - (a.year || 0);
+});
+
+const processedContests = contests.map(contest => {
+  return {
+    ...contest,
+  };
+});
+---
+
+<Layout>
+  <Header />
+  <Main pageTitle="Contests">
+    <div
+      id="contests-table"
+      class="relative overflow-x-auto shadow-md sm:rounded-lg"
+    >
+      <table class="w-full text-left text-sm text-gray-800 dark:text-gray-300">
+        <thead
+          class="sticky top-0 z-10 bg-gray-600 text-xs text-white uppercase"
+        >
+          <tr>
+            <th class="px-6 py-3">Place</th>
+            <th class="px-6 py-3">Event</th>
+            <th class="px-6 py-3">Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            processedContests.map((contest, i) => (
+              <tr
+                class={[
+                  i % 2 === 0
+                    ? "bg-white dark:bg-gray-800"
+                    : "bg-gray-50 dark:bg-gray-900",
+                  "border-b transition hover:bg-emerald-50 dark:border-gray-700 dark:hover:bg-gray-700",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
+              >
+                <th
+                  scope="row"
+                  class="px-4 py-4 font-semibold whitespace-nowrap text-gray-900 dark:text-white"
+                >
+                  <div class="flex items-center">
+                    <div class="ml-2 text-sm font-medium">{contest.place}</div>
+                  </div>
+                </th>
+                <td class="px-6 py-4">
+                  <a
+                    href={`https://ctftime.org/${contest.href}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:underline"
+                  >
+                    {contest.event}
+                    {contest.year ? (
+                      <span class="ml-2 text-xs text-gray-500">
+                        ({contest.year})
+                      </span>
+                    ) : (
+                      ""
+                    )}
+                  </a>
+                </td>
+                <td class="px-6 py-4">
+                  <div class="text-emerald-600 dark:text-emerald-400">
+                    {contest.ratingPoints} rating points
+                  </div>
+                  <div class="text-blue-600 dark:text-blue-400">
+                    {Math.floor(Number(contest.ctfPoints))} CTF points
+                  </div>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </Main>
+  <Footer />
+</Layout>

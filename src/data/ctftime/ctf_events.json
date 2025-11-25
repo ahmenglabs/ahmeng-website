@@ -1,0 +1,79 @@
+[
+  {
+    "place": "124",
+    "event": "GlacierCTF 2025",
+    "ctfPoints": "450.0000",
+    "ratingPoints": "3.449",
+    "href": "/event/2714"
+  },
+  {
+    "place": "498",
+    "event": "AmateursCTF 2025",
+    "ctfPoints": "10.0000",
+    "ratingPoints": "0.134",
+    "href": "/event/2844"
+  },
+  {
+    "place": "73",
+    "event": "M*CTF 2025 Junior Quals",
+    "ctfPoints": "1964.0000",
+    "ratingPoints": "1.585",
+    "href": "/event/2995"
+  },
+  {
+    "place": "52",
+    "event": "Infobahn CTF 2025",
+    "ctfPoints": "1100.0000",
+    "ratingPoints": "4.109",
+    "href": "/event/2878"
+  },
+  {
+    "place": "636",
+    "event": "N1CTF 2025",
+    "ctfPoints": "33.0000",
+    "ratingPoints": "0.833",
+    "href": "/event/2795"
+  },
+  {
+    "place": "273",
+    "event": "V1t CTF 2025",
+    "ctfPoints": "1660.0000",
+    "ratingPoints": "4.019",
+    "href": "/event/2920"
+  },
+  {
+    "place": "71",
+    "event": "DEADFACE CTF 2025",
+    "ctfPoints": "4621.0000",
+    "ratingPoints": "16.989",
+    "href": "/event/2912"
+  },
+  {
+    "place": "165",
+    "event": "H7CTF 2025",
+    "ctfPoints": "5000.0000",
+    "ratingPoints": "2.871",
+    "href": "/event/2938"
+  },
+  {
+    "place": "363",
+    "event": "QnQSec CTF 2025",
+    "ctfPoints": "300.0000",
+    "ratingPoints": "0.753",
+    "href": "/event/2826"
+  },
+  {
+    "place": "250",
+    "event": "Securinets CTF Quals 2025",
+    "ctfPoints": "543.0000",
+    "ratingPoints": "4.606",
+    "href": "/event/2884"
+  },
+  {
+    "place": "365",
+    "event": "SunshineCTF 2025",
+    "ctfPoints": "369.0000",
+    "ratingPoints": "2.576",
+    "href": "/event/2863"
+  }
+]
