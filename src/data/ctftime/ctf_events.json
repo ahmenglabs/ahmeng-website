@@ -1,10 +1,45 @@
 [
   {
+    "place": "80",
+    "event": "BackdoorCTF 2025",
+    "ctfPoints": "1400.0000",
+    "ratingPoints": "15.653",
+    "href": "/event/2915"
+  },
+  {
+    "place": "26",
+    "event": "P3rf3ctr00t CTF 2025",
+    "ctfPoints": "5915.0000",
+    "ratingPoints": "0.000*",
+    "href": "/event/3009"
+  },
+  {
+    "place": "138",
+    "event": "HeroCTF v7",
+    "ctfPoints": "1688.0000",
+    "ratingPoints": "9.125",
+    "href": "/event/2869"
+  },
+  {
+    "place": "207",
+    "event": "LakeCTF Quals 25-26",
+    "ctfPoints": "600.0000",
+    "ratingPoints": "11.162",
+    "href": "/event/2944"
+  },
+  {
     "place": "124",
     "event": "GlacierCTF 2025",
     "ctfPoints": "450.0000",
     "ratingPoints": "3.449",
     "href": "/event/2714"
+  },
+  {
+    "place": "192",
+    "event": "PatriotCTF 2025",
+    "ctfPoints": "3152.0000",
+    "ratingPoints": "19.846",
+    "href": "/event/2850"
   },
   {
     "place": "498",
@@ -38,7 +73,7 @@
     "place": "273",
     "event": "V1t CTF 2025",
     "ctfPoints": "1660.0000",
-    "ratingPoints": "4.019",
+    "ratingPoints": "4.030",
     "href": "/event/2920"
   },
   {
