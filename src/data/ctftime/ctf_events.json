@@ -1,5 +1,12 @@
 [
   {
+    "place": "298",
+    "event": "niteCTF 2025",
+    "ctfPoints": "150.0000",
+    "ratingPoints": "0.960",
+    "href": "/event/2851"
+  },
+  {
     "place": "80",
     "event": "BackdoorCTF 2025",
     "ctfPoints": "1400.0000",
@@ -10,7 +17,7 @@
     "place": "26",
     "event": "P3rf3ctr00t CTF 2025",
     "ctfPoints": "5915.0000",
-    "ratingPoints": "0.000*",
+    "ratingPoints": "12.539",
     "href": "/event/3009"
   },
   {
