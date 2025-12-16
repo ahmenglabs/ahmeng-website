@@ -37,7 +37,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/154386191?v=4" alt="Aqil Fadhil Murbantresna" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Aqil Fadhil Murbantresna</h3>
-      <p class="text-sm">Aqol</p>
+      <p class="text-sm">Aqol Ngoding React Di Youtube</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-purple-200 text-purple-800 text-xs font-semibold px-2 py-0.5 rounded">ai/ml</span>
