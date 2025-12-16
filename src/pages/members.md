@@ -9,7 +9,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/73385158?v=4" alt="Andika Dinata" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Andika Dinata</h3>
-      <p class="text-sm">Hacker</p>
+      <p class="text-sm">Aku cuma bisa tidur.</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-gray-200 text-red-800 text-xs font-semibold px-2 py-0.5 rounded">Founder</span>
