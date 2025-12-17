@@ -24,7 +24,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/88768457?v=4" alt="Aziz Prayoga" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Aziz Prayoga</h3>
-      <p class="text-sm">.</p>
+      <p class="text-sm">Aziz Raja Reverse Engineering</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-orange-200 text-orange-800 text-xs font-semibold px-2 py-0.5 rounded">Pwn</span>
