@@ -9,7 +9,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/73385158?v=4" alt="Andika Dinata" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Andika Dinata</h3>
-      <p class="text-sm">Aku cuma bisa tidur.</p>
+      <p class="text-sm">Aslinya cupu</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-gray-200 text-red-800 text-xs font-semibold px-2 py-0.5 rounded">Founder</span>
@@ -24,7 +24,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/88768457?v=4" alt="Aziz Prayoga" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Aziz Prayoga</h3>
-      <p class="text-sm">Aziz Raja Reverse Engineering</p>
+      <p class="text-sm">-</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-orange-200 text-orange-800 text-xs font-semibold px-2 py-0.5 rounded">Pwn</span>
@@ -52,7 +52,7 @@ title: Members
     <img src="https://avatars.githubusercontent.com/u/93093757?v=4" alt="Muhammad Defrizal" class="w-56 h-56 rounded-full mb-4" />
     <div class="text-center">
       <h3 class="font-bold">Muhammad Defrizal</h3>
-      <p class="text-sm">Aku Nggak Bisa Ngoding, Bisanya Tidur kayak Arya</p>
+      <p class="text-sm">I love Aqil</p>
     </div>
     <div class="flex flex-wrap gap-1 mt-2 justify-center">
       <span class="bg-cyan-200 text-cyan-800 text-xs font-semibold px-2 py-0.5 rounded">Crypto</span>
